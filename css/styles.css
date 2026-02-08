@@ -39,8 +39,8 @@ h2 {
 
 h3 {
     line-height: 1.2;
-        letter-spacing: 0.02em;
-        color: #2e2f42;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
 /* #endregion */
 
@@ -84,6 +84,10 @@ h3 {
 .footer-logo .logo-part {
     color: #f4f4fd;
 }
+
+.footer-text {
+    color: #f4f4fd;
+}
 /* #endregion */
 
 /* #region Hero */
@@ -93,6 +97,7 @@ h3 {
 }
 
 .hero-title {
+    font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
@@ -100,11 +105,13 @@ h3 {
 }
 
 .btn {
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     background-color: #4d5ae5;
     color: #fff;
 }
 
-.btn:active,
+.btn:focus,
 .btn:hover {
     background-color: #404bbf;
 }
@@ -145,7 +152,13 @@ h3 {
     background-color: #fff;
 }
 
-.our-team-member,
+.our-team-member {
+    text-align: center;
+    line-height: 1.2;
+    font-weight: 500;
+    font-size: 20px;
+}
+
 .our-team-position {
     text-align: center;
 }
@@ -153,4 +166,5 @@ h3 {
 /* #endregion */
 
 /* #region Our Portfolio */
+
 /* #endregion */
